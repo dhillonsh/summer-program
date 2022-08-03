@@ -7,8 +7,5 @@ pipeline {
         sh 'docker build'
       }
     }
-    stage('Docker Push') {
-
-    }
   }
 }
