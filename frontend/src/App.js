@@ -13,7 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <form method="post" action="http://localhost:3001/register" enctype="application/x-www-form-urlencoded">
-          Your Username: <input name="username" />
+          Your2 Username: <input name="username" />
           Password: <input name="password" />
           <input type="submit" />
         </form>
